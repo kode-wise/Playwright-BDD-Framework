@@ -1,4 +1,4 @@
-@ui @smoke @home
+@ui @home
 Feature: Booking page
 
 Scenario: Guest can book the room
