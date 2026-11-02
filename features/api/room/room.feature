@@ -8,7 +8,6 @@ Scenario: User can list rooms via the API
     And The room list should not be empty
     And Each room should have a name, type and price
 
-@smoke
 Scenario: User can view a single room via the API
     Given User has requested the room list via the API
     When User requests the first room via the API

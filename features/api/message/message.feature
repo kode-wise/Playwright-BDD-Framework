@@ -1,7 +1,6 @@
 @api @message
 Feature: Message API
 
-@smoke
 Scenario: User can submit a contact message via the API
     When User submits a contact message via the API from "validContact"
     Then The API response status should be 200

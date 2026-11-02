@@ -172,7 +172,7 @@ env/                  Local env files (not committed)
 
 ## CI
 
-On push and pull request to `main` or `master`, GitHub Actions runs type check, ESLint, and Prettier, then the Playwright suite with `ENV=dev`. The HTML report is uploaded as an artifact. Environment files are not committed, so the job needs `BASE_URL`, `ADMIN_USERNAME`, and `ADMIN_PASSWORD` set in the runner environment.
+On push and pull request to `main` or `master`, GitHub Actions runs type check, ESLint, and Prettier, then the `@smoke` Playwright suite with `ENV=dev`. The HTML report is uploaded as an artifact. Environment files are not committed, so the job needs `BASE_URL`, `ADMIN_USERNAME`, and `ADMIN_PASSWORD` set in the runner environment.
 
 Local quality checks:
 

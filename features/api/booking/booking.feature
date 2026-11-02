@@ -1,7 +1,6 @@
 @api @booking
 Feature: Booking API
 
-@smoke
 Scenario: User can create a booking via the API
     Given User has requested the room list via the API
     When User creates a booking via the API from "validBooking"
